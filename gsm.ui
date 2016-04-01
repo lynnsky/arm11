@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Gsm</class>
+ <widget class="QDialog" name="Gsm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>259</width>
+    <height>305</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>240</width>
+     <height>320</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="widget">
+    <attribute name="title">
+     <string>绑定</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>70</y>
+       <width>71</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>发送短信</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBtn_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1</string>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>300</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBtn_3">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>70</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3</string>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>300</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBtn_del">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>220</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>删除</string>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>300</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBtn_2">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>70</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2</string>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>300</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBtn_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>4</string>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>300</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBtn_5">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>120</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>5</string>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>300</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBtn_9">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>170</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>9</string>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>300</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBtn_8">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>170</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>8</string>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>300</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBtn_0">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>220</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>300</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>19</x>
+       <y>20</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBtn_6">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>120</y>
+       <width>51</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>6</string>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>300</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBtn_bind">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>220</y>
+       <width>121</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>绑定</string>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>300</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBtn_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>7</string>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>300</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>120</y>
+       <width>71</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>发送彩信</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>170</y>
+       <width>71</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>拨号</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>已绑定号码</string>
+    </attribute>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>191</width>
+       <height>191</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBtn_display">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>230</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>显示已绑定</string>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>300</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBtn_delbind">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>230</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>删除绑定</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>打开发送图片</string>
+    </attribute>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>181</width>
+       <height>27</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBtn_file">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>150</y>
+       <width>71</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>文件路径</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>images/短信.jpg</file>
+        <file>images/监控.jpg</file>
+        <file>images/摄像头.jpg</file>
+        <file>images/图片.jpg</file>
+        <file>images/0.jpg</file>
+        <file>images/江南大学.jpg</file>
+    </qresource>
+</RCC>

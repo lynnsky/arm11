@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>760</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="videoButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>131</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-image: url(:/icon/images/监控.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="gsmButton">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>10</y>
+      <width>231</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/icon/images/短信.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="usbcameraButton">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>150</y>
+      <width>177</width>
+      <height>177</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-image: url(:/icon/images/摄像头.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="imgageButton">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>230</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-image: url(:/icon/images/图片.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>336</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>30</y>
+      <width>121</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/icon/images/江南大学.jpg</pixmap>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="USBcamera"/>
+   <addaction name="video"/>
+   <addaction name="sendmessage"/>
+   <addaction name="image"/>
+   <addaction name="action"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="USBcamera">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/icon/images/摄像头.jpg</normaloff>:/icon/images/摄像头.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>摄像头</string>
+   </property>
+   <property name="toolTip">
+    <string>摄像头</string>
+   </property>
+  </action>
+  <action name="video">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/icon/images/监控.jpg</normaloff>:/icon/images/监控.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>视频监控</string>
+   </property>
+  </action>
+  <action name="sendmessage">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/icon/images/短信.jpg</normaloff>:/icon/images/短信.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>短信</string>
+   </property>
+   <property name="toolTip">
+    <string>短信</string>
+   </property>
+  </action>
+  <action name="image">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/icon/images/图片.jpg</normaloff>:/icon/images/图片.jpg</iconset>
+   </property>
+   <property name="text">
+    <string> 图片浏览</string>
+   </property>
+   <property name="toolTip">
+    <string> 图片浏览</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/icon/images/0.jpg</normaloff>:/icon/images/0.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>日历</string>
+   </property>
+   <property name="toolTip">
+    <string>日历</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
